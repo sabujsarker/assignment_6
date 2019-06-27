@@ -1,0 +1,39 @@
+/* medium layout: 1280px. */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {}
+
+
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+  .protfulio {
+	min-height: 1500px;
+}.top {
+	min-height: 942px;
+}
+}
+
+/*mobile layout: 320px */
+
+@media only screen and (max-width: 767px) 
+
+{
+  .top-right>h1 {
+      font-size: 17px;}.top {
+	min-height: 1079px;
+}.top-right {
+	width: 100%;
+	margin-top: 37px;}.pro-top>p {
+        width: 77%;}.protfulio {
+            min-height: 1600px;}.feature>p {
+                width: 80%;	margin-bottom: 5px;}.fea-1st{	margin-top: 54px;}.footer-ful {
+		min-height: 395px;
+}.footer {
+    width: 100%;}
+}
+
+/* wide mobile layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
